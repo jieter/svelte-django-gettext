@@ -20,7 +20,7 @@ export default {
         }),
         ...
 
-        writeGettextExtracts('js/_),
+        writeGettextExtracts('js/_svelte_django_extracted_messages.js'),
     ]
 }
 ```
