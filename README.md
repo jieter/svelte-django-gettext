@@ -37,8 +37,7 @@ import gettext from 'svelte-django-gettext';
 <h1>{gettext('hello')}</h1>
 ```
 
-
-Make sure the page loads the generated catalog, from a django template: `<script src="{% url 'javascript-catalog' %}"></script>`
+Make sure the page loads the generated catalog, from a django template: `<script src="{% url 'javascript-catalog' %}"></script>`. If this is not the case, all functions will just return their message id.
 
 # How it works:
 

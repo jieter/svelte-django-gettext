@@ -21,7 +21,7 @@ export function writeGettextExtracts(extractsFile = '_svelte_django_extracted_me
     };
 }
 
-export async function gettextStringExtractor({ content, attributes, filename }) {
+export async function gettextStringExtractor({ content, filename }) {
     if (content.indexOf('gettext') === -1) {
         return;
     }
