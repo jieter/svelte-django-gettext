@@ -1,0 +1,15 @@
+name: CI
+on: [push]
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.4.0
+      - run: npm install
+      - run: npm run eslint
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.4.0
+      - run: npm install
+      - run: npm run test
