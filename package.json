@@ -1,6 +1,6 @@
 {
     "name": "svelte-django-gettext",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Use django gettext in Svelte",
     "main": "index.js",
     "type": "module",
@@ -35,7 +35,9 @@
             "ecmaVersion": 13,
             "sourceType": "module"
         },
-        "plugins": ["import"],
+        "plugins": [
+            "import"
+        ],
         "rules": {
             "indent": [
                 "error",
@@ -44,13 +46,27 @@
                     "SwitchCase": 1
                 }
             ],
-            "quotes": ["error", "single"],
+            "quotes": [
+                "error",
+                "single"
+            ],
             "import/order": [
                 "error",
                 {
-                    "groups": ["builtin", "external", "internal", ["parent", "sibling"]],
+                    "groups": [
+                        "builtin",
+                        "external",
+                        "internal",
+                        [
+                            "parent",
+                            "sibling"
+                        ]
+                    ],
                     "newlines-between": "always",
-                    "alphabetize": { "order": "asc", "caseInsensitive": true }
+                    "alphabetize": {
+                        "order": "asc",
+                        "caseInsensitive": true
+                    }
                 }
             ]
         }
