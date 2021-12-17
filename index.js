@@ -1,4 +1,4 @@
-export * from './build';
+export * from './build.js';
 
 /* Proxy to globally defined django.*gettext functions if it is available.
  */
