@@ -1,6 +1,6 @@
 {
     "name": "svelte-django-gettext",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Use django gettext in Svelte",
     "main": "index.js",
     "type": "module",
