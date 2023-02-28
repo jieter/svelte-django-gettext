@@ -44,4 +44,4 @@ Make sure the page loads the generated catalog, from a django template: `<script
 Django's `./manage.py makemessages` cannot parse `.svelte` files to extract `gettext()` calls.
 A rollup plugin extracts all `gettext()` calls and outputs `_svelte_django_extracted_messages.js`, containh contains `gettext` calls extracted from your `.svelte` files.
 
-This file should be added to `.gitignore`, but is readable by django's [`magemessages` management command](https://docs.djangoproject.com/en/stable/ref/django-admin/#django-admin-makemessages).
+This file should be added to `.gitignore`, but is readable by django's [`makemessages` management command](https://docs.djangoproject.com/en/stable/ref/django-admin/#django-admin-makemessages).
