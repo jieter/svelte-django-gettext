@@ -1,6 +1,5 @@
-/* globals describe, expect, test */
+import { describe, expect, test } from 'vitest';
 import { gettext, ngettext, npgettext, pgettext } from '../index.js';
-
 
 describe('gettext', function() {
     test('Is identity function if django is not defined', function() {

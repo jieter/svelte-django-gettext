@@ -1,6 +1,4 @@
-export * from './build.js';
-
-/* Proxy to globally defined django.*gettext functions if it is available.
+/* Proxies to globally defined django.*gettext functions if it is available.
  */
 function capfirst(str, condition) {
     return condition ? (str.charAt(0).toUpperCase() + str.slice(1)) : str;
