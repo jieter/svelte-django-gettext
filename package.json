@@ -2,10 +2,12 @@
     "name": "svelte-django-gettext",
     "version": "1.0.1",
     "description": "Use django gettext in Svelte",
+    "author": "Jan Pieter Waagmeester",
+    "license": "ISC",
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "jest test",
+        "test": "vitest",
         "eslint": "eslint -c package.json --fix *.js test/"
     },
     "keywords": [
@@ -14,13 +16,15 @@
         "gettext",
         "i18n"
     ],
-    "author": "Jan Pieter Waagmeester",
-    "license": "ISC",
+    "exports": {
+        ".": "./index.js",
+        "./build": "./build.js"
+    },
     "devDependencies": {
-        "@babel/preset-env": "^7.16.0",
         "eslint": "^8.3.0",
         "eslint-plugin-import": "^2.25.3",
-        "jest": "^27.3.1"
+        "jsdom": "^23.2.0",
+        "vitest": "^1.2.1"
     },
     "jest": {
         "testEnvironment": "jsdom"
