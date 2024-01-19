@@ -1,6 +1,6 @@
 {
     "name": "svelte-django-gettext",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Use django gettext in Svelte",
     "author": "Jan Pieter Waagmeester",
     "license": "ISC",
