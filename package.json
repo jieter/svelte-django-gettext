@@ -1,6 +1,6 @@
 {
     "name": "svelte-django-gettext",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Use django gettext in Svelte",
     "author": "Jan Pieter Waagmeester",
     "license": "ISC",
@@ -20,6 +20,11 @@
         ".": "./index.js",
         "./build": "./build.js"
     },
+    "files": [
+        "build.js",
+        "index.js",
+        "README.md"
+    ],
     "devDependencies": {
         "eslint": "^8.3.0",
         "eslint-plugin-import": "^2.25.3",
